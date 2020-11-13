@@ -1,2 +1,2 @@
 # Certificacado de conclusão
-![image](Certificado.jpg)
+![image](R_studio.JPG)
