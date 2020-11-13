@@ -91,12 +91,8 @@ x <- as.numeric(str_extract_all(enderecos, "[0-9]+")[[1]])
 # # INSIRA SEU CÓDIGO AQUI
 enderecos_df = data.frame(x = (enderecos))
 a <- data.frame(do.call("rbind", strsplit(as.character(enderecos_df$x), ",", fixed = TRUE)))
-#a <- matrix(enderecos, 3, 2)
 colnames(a) <- c("Endereço", "Cidade")
 
-result_1 <- strsplit(enderecos,",")[[1]][1:3]
-result_2 <- strsplit(enderecos,",")[[2]][1:3]
-result <- list(result_1,result_2)
 
 
 # 
